@@ -1,7 +1,7 @@
 
 public class FirstAssignment {
 	
-	int abc=369;
+	int ab=369;
 
 	
 }
