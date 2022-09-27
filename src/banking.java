@@ -18,17 +18,15 @@ public class address  {
 	
 }
 
-public class employees  {
+public class employees {
 	int emplyeeID;
 	String firstName;
 	String lastName;
-	int dateBirth;
-	
-	
-	
+	int dateofBirth;
+	int socialSecurityNumber;
 }
 
-public class account  {
+public class account {
 	
 	int accountNumber;
 	String customerfirstName;
