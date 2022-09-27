@@ -1,5 +1,7 @@
 
 public class firstas {
 
-	String n = "name";
+
+	
+	String  b ="name";
 }
