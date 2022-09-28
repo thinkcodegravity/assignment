@@ -1,4 +1,4 @@
-package data.structure;
+package dataStructure;
 
 public class CC {
 	String name;
