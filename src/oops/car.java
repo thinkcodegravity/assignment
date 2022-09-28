@@ -10,9 +10,10 @@ public void driveCar( ) {
 	System.out.println("I Like to drive my car");
 }
 
-public void doorNumbers(int door) {
+public void stopCar( ) {
 	
-	System.out.println("My car has"+door+"door.");
+	System.out.println("I have stop my car at STOP sign");
+	
 }
 
 
