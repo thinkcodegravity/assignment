@@ -1,4 +1,4 @@
-package LoginWebsite;
+package ControlFlows;
 
 public class Userlogin {
 
@@ -17,6 +17,7 @@ public class Userlogin {
 	public static void main(String[] args) {
 		Userlogin checkuser = new Userlogin();
 		checkuser.Userlogin("david", "124");
+		checkuser.Userlogin("david", "1234");
 	}
 
 }
