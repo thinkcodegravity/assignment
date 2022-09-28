@@ -12,7 +12,7 @@ public void driveCar( ) {
 
 public void stopCar( ) {
 	
-	System.out.println("I have stop my car at STOP sign");
+	System.out.println("I have stop my car at STOP sign"); 
 	
 }
 
