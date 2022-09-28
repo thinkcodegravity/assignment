@@ -12,35 +12,31 @@ lastName = "Adhikari";
 }
 
 
-{double valueofpi;}
+{
+	double valueofpi;
+	}
 
 
 
 {Long customerPhoneNumber = 8014562356l;}
 
-String customerCreditCard; 
-
-String CompnyContactinfo; 
-
-short height = 123; 
-
-float employeeSalary = 100500f;
 
 
-String cart1; 
-	int x;
-String cart2;
-	int y; 
-	
-return x+y;
+public class creditCard{	
+creditCard  cc = new creditCard();
 
-{
-	String paymentDetails;
-
-paymentDetails p = new paymentDetails(;)
 }
 
+public class employeeSalary  {
+	employeeSalary s = new employeeSalary();
+	
 
+	
+	public class paymentDetails  {
+		
+		paymentDetails pd = new paymentDetails();
+	}
+}
 
 
 
