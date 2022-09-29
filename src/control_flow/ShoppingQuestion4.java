@@ -1,4 +1,7 @@
 package control_flow;
+
+import java.util.Scanner;
+
 /*
  * Write a shopping program that has-a balance, product price
 	Create a checkout method that takes orderquantity as input. 
@@ -7,20 +10,25 @@ package control_flow;
 
  */
 public class ShoppingQuestion4 {
-	float balance;
-	float productPrice;
+	int balance = 10000;
+	float productPrice = 999.9f;
 	
-	public void checkOut(int orderQuantity) {
+	public String checkOut(int orderQuantity) {
 		float totalCartPrice = orderQuantity * productPrice;
 		if(totalCartPrice < balance) {
-			System.out.println("success");
+			return "success";
 		}else {
-			System.out.println("failure");
+			return "failure";
 		}
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		ShoppingQuestion4 sq4 = new ShoppingQuestion4();
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter the number of order");
+		int orderNumber = sc.nextInt();
+		String shopping = sq4.checkOut(orderNumber);
+		System.out.println(shopping);
 
 	}
 

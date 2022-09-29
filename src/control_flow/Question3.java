@@ -1,5 +1,7 @@
 package control_flow;
 
+import java.util.Scanner;
+
 public class Question3 {
 	/*
 	 * Write a program that has-a registered phone, userid, password
@@ -9,33 +11,36 @@ public class Question3 {
 	
 	long phoneRegister = 987654321;
 	String userId = "John321";
-	String password;
+	String password = "@java123";
 	
 	public String idRegistration(long phoneInput) {
 		if(phoneInput == phoneRegister) {
-			System.out.println(userId);
+			return userId;
 		}else {
-			System.out.println("Not able to find userId");
-		}
-		return userId;
-		
+			return "Invalid userName";
+		}	
 	}
 	
 	public String pwdRegistration(String loginUserId) {
 		if(loginUserId == userId) {
-			System.out.println(password);
+			return password;
 		}else {
-			System.out.println("Not able to retrive password");
-		}
-		return password;
-		
+			return "Invalid passsword";
+		}	
 	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Question3 qq = new Question3();
-		qq.idRegistration(987654321);
-		qq.pwdRegistration("@java123");
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter the phone number");
+		long phone = sc.nextLong();
+		String userName = qq.idRegistration(phone);
+		System.out.println(userName);
+		
+		System.out.println("enter your login user Id");
+		String login = sc.nextLine();
+		String userPassword = qq.pwdRegistration(login);
+		System.out.println(userPassword);
 	}
-
 }
