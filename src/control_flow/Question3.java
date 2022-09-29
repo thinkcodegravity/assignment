@@ -33,14 +33,22 @@ public class Question3 {
 		// TODO Auto-generated method stub
 		Question3 qq = new Question3();
 		Scanner sc = new Scanner(System.in);
+		
 		System.out.println("enter the phone number");
 		long phone = sc.nextLong();
 		String userName = qq.idRegistration(phone);
-		System.out.println(userName);
+		System.out.println("The user id is: " + userName);
 		
 		System.out.println("enter your login user Id");
-		String login = sc.nextLine();
+		String login = sc.next();
 		String userPassword = qq.pwdRegistration(login);
 		System.out.println(userPassword);
+
+			
+			
+			
+
+		
+		
 	}
 }
