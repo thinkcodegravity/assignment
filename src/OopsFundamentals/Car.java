@@ -1,4 +1,4 @@
-package assignment;
+package OopsFundamentals;
 
 public class Car {
 

@@ -1,4 +1,4 @@
-package assignment;
+package OopsFundamentals;
 
 public class Product {
 
@@ -8,7 +8,7 @@ public class Product {
 
 	public double buyProduct(double buyPrice) {
 		System.out.println("Buying price for the product is " + buyPrice);
-		return buyPrice;
+		return buyPrice;  
 	}
 
 	public double sellProduct(double sellPrice) {
