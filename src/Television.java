@@ -10,7 +10,7 @@ public class Television {
 		
 		System.out.println("I have a " + TVScreen+".");
 		System.out.println("Press the button to turn "+ SwitchTab+".");
-		System.out.println("Press the " + VolumeTab + "button for increase/decrease the volume of the TV.");
+		System.out.println("Press the " + VolumeTab + " button for increase/decrease the volume of the TV.");
 		System.out.println("Choose your favourate channel pressing the " + ChannelButton+".");
 		
 
