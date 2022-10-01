@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class AreaOfCircle {
 
 	public static void main(String[] args) {
-		//Calculation of the Area of Circle
+		//Calculation of the Area of Circle with user input
 		//Area of the cirlce is a=r*r*22/7
 		//Workin the full scanner and decimal format
 		
