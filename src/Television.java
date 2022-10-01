@@ -2,6 +2,7 @@
 public class Television {
 
 	public static void main(String[] args) {
+		//operations and works of the tv
 
 		String TVScreen = "Samsung LCD";
 		String SwitchTab ="ON/OFF";
