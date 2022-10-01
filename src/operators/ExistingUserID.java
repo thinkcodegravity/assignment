@@ -9,10 +9,12 @@ package operators;
 	 */
 public class ExistingUserID {
 	
-public void userID( string S) {
-	newuserid = S;
+String userID ="yadav253";
+String Password = "java963";
+
+public ExistingUserID( String Us) {
+	
+	UserID = Us;
 }
 
-public static void main(String [] args) {
-	ExistingUserID ID = new ExistingUserID();
-	
+}
