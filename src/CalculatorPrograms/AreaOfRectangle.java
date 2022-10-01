@@ -6,7 +6,7 @@ class AreaOfRectangle {
 
 	public static void main(String[] args) {
 		//Calculation Area of the Rectangle
-		//Full scanner version or input user
+		//Full scanner version or input user and get output
 		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the legth of Rectangle : - ");
