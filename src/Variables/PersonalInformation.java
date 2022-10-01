@@ -1,4 +1,4 @@
-package variables;
+package Variables;
 
 public class PersonalInformation {
 
