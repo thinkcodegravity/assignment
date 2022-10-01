@@ -2,7 +2,7 @@
 public class Cars {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		//Operation method for car and work flow
 
 		String accelerator = "Move";
 		String Brake = " slow down or stop";
