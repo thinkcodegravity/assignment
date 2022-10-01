@@ -2,7 +2,7 @@
 public class Product {
 
 	public static void main(String[] args) {
-		// product- penciles, cost and quantity
+		// product- penciles, cost and quantity using the formula
 		String fName = "Kamal";
 		Double PriceEach = 3.25;
 		int Quantity = 12;
