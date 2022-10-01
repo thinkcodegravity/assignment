@@ -10,9 +10,9 @@ public class AreaOfCircle {
 		//Area of the cirlce is a=r*r*22/7
 		//Workin the full scanner and decimal format
 		
-		Scanner scanner = new Scanner(System.in);
+		Scanner AC = new Scanner(System.in);
 		System.out.println("Enter the radius of the circle :" );
-		double r = scanner.nextDouble();
+		double r = AC.nextDouble();
 		DecimalFormat df = new DecimalFormat();
 		df.setMaximumFractionDigits(2);
 		
