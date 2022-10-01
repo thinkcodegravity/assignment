@@ -1,12 +1,13 @@
 
 public class Bank {
+	// Banking information and operations
 
 	public static void main(String[] args) {	
 		String CustomerName = "Kamal Saru";
-		int BankAccount = 12345;
-		int ATMpin = 1101;
-	    String UserID = "Codegravity";
-	    String Password = "Code";
+		//int BankAccount = 12345;
+		//int ATMpin = 1101;
+	    //String UserID = "Codegravity";
+	    //String Password = "Code";
 	    Double Balance = 1452.78;
 	    Double Deposit = 102.65;
 	    Double Withdraw = 152.34;
