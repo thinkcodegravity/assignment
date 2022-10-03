@@ -1,4 +1,4 @@
-package secondOperator;
+package operator.second;
 
 public class Bank {
 	int bankMoney;
