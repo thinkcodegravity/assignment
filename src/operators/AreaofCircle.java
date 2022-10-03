@@ -8,12 +8,11 @@ public class AreaofCircle {
 	
 	// area of circle = π*r*r
 	
-	  double AreaofCircle(int radius, ) {
+	 public AreaofCircle(int radius, double π) {
 		
-		int R = radius*radius;
-		double AreaofCircle = R*π;
-	  
+		return 3.14*π*π;
+	 }
 	
-		return AreaofCircle;
+		
 	}
 
