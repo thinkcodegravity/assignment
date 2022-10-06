@@ -25,7 +25,7 @@ public class DepsitAmount {
 			System.out.println("Kamal B. Saru");
 			System.out.println("4307 Four Mill Road Baltimore MD 21236");
 			System.out.println("Phone Number: 443-449-0534");
-			System.out.println("Date of Birth : July 23 1989");
+			System.out.println("Date of Birth : July/23/1989");
 			System.out.println("Your current balance is :-$"+ BalanceAmount);
 			
 			System.out.println("Please, Enter your deposit Amount :-$ ");
