@@ -12,9 +12,18 @@ public class ExistingUserID {
 String userID ="yadav253";
 String Password = "java963";
 
-public ExistingUserID( String Us) {
+public ExistingUserID( String U) {
 	
-	UserID = Us;
+System.out.println(U);
+if (ExistingUserID == userID)
+{
+	
+System.out.println(user Id retrieved);
 }
+
+else{
+	System.out.println(Invalid user ID);
+}
+
 
 }
