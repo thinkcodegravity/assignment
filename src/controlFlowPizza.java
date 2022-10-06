@@ -28,6 +28,9 @@ public static void main(String[] args) {
 		
 	default:
 		System.out.println("Price of salad is $14.");
+		
+		scan.close();
+		
 		}
 	}
 }
