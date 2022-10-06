@@ -11,10 +11,12 @@ public class Numberflow {
 		if(choice ==1);
 		System.out.println("Enter deposit amount");
 	}
-	else if(choice == 2)		
+	else 
+		if(choice == 2)		
 		System.out.println("Enter withdraw Amount");
 }
-else if (choise==3)
+else 
+	if (choise==3)
 		System.out.println(" Your balance $125");
 	}
 
