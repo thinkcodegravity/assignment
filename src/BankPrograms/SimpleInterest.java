@@ -19,7 +19,7 @@ public class SimpleInterest {
 	    System.out.println("Enter the percentage rate :- ");
 	    double R = scanner.nextDouble();                   //Interest rate in percentage
 	    
-	    double SimpleInterest = P*T*R/100;
+	    double SimpleInterest = P*T*R/100; //Formula for simple interest amount
 		
 	    System.out.println("The interest amount is "+  SimpleInterest + " in " + T + "years with " + R + "% of priciple of amount " + P +"." );
 	    
