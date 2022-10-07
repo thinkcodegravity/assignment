@@ -16,18 +16,19 @@ public String ExistingUsrID( long phoneInput) {
 	
 if (phoneInput== phonereg) {
 	System.out.println(userID);
+	 return userID;
 }
 else{
-	System.out.println("can't find user ID");
+	return "invalid phone number";
 }
- return userID;
+
 }
 
 
 public static void main(String[] args ) {
 	ExistingUserID UID = new ExistingUserID();
 	
-	String userID = UID.ExistingUsrID(4789651230);
+	String userID = UID.ExistingUsrID(49651230);
 	System.out.println("userid retrieved is:"  +userID );
 	
 	
