@@ -8,18 +8,14 @@ public class InputusingLoop {
 			 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int i =1;
-		while( i<10 ){
+		
+		while( boolean condition ){
 
-			i++;
-continue;
+
 
 		}
 		
-		
-	{
 		for( int i=1 ; i<=10 ; i++){
-	}
 			
 			if(i==15){
 				break;
