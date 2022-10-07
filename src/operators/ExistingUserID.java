@@ -19,7 +19,7 @@ if (phoneInput== phonereg) {
 	 return userID;
 }
 else{
-	return "invalid phone number";
+	return "invalid phone number, Try again";
 }
 
 }
@@ -28,7 +28,7 @@ else{
 public static void main(String[] args ) {
 	ExistingUserID UID = new ExistingUserID();
 	
-	String userID = UID.ExistingUsrID(49651230);
+	String userID = UID.ExistingUsrID(478965123);
 	System.out.println("userid retrieved is:"  +userID );
 	
 	
