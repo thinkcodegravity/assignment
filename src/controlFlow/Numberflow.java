@@ -1,5 +1,7 @@
 package controlFlow;
 
+import java.util.Scanner;
+
 public class Numberflow {
 
 	public static void main(String[] args) {
@@ -10,17 +12,14 @@ public class Numberflow {
 		int choice= sc.nextInt(); 
 		if(choice ==1);
 		System.out.println("Enter deposit amount");
-	}
-	else 
-		if(choice == 2)		
+	
+	 
+	   if (choice == 2)		
 		System.out.println("Enter withdraw Amount");
-}
-else 
-	if (choise==3)
+ 
+	if (choice==3)
 		System.out.println(" Your balance $125");
 	}
-
-	
-
 }
+
 
