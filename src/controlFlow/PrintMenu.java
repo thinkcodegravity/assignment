@@ -14,7 +14,7 @@ public class PrintMenu {
 		
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
-		
+		{
 		String choice = "Salad";
 		switch  (choice) {
 		case "1":
@@ -26,5 +26,13 @@ public class PrintMenu {
 			default:
 				System.out.println("Salad");
 		}
-	}
+	
+		{
+
+			
+			
+			System.out.println(enter 1. for Pizza);
+		System.out.println(enter 2. for Pasta);
+		
+		}
 
