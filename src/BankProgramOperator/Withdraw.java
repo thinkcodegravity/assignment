@@ -11,7 +11,7 @@ public class Withdraw {
 		
 		else {			
 			int remainingBalance = balance - withdrawAmount;
-			System.out.println("Thank You, Your remaining balance is = " +remainingBalance );
+			System.out.println("Thank You, Your remaining balance is = " +remainingBalance);
 
 		}
 		return 0;
