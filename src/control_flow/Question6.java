@@ -12,13 +12,10 @@ Default – salad
  */
 public class Question6 {
 	
-	public void menuItems() {
-		System.out.println("enter 1. for Pizza");
-		System.out.println("enter 2. for Pasta");
-		Scanner sc = new Scanner(System.in);
-		int option = sc.nextInt();
+	public void menuItems(int userChoice) {
 		
-		switch(option) {
+		
+		switch(userChoice) {
 		case 1: 
 			System.out.println("The price of pizza is: $15");
 			break;

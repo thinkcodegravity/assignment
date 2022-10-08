@@ -22,7 +22,7 @@ public class Question3 {
 	}
 	
 	public String pwdRegistration(String loginUserId) {
-		if(loginUserId == userId) {
+		if(loginUserId.equals(userId)) {
 			return password;
 		}else {
 			return "Invalid passsword";
