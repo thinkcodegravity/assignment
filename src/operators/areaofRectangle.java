@@ -1,6 +1,6 @@
 package operators;
 
-public class areaofRectangle {
+public class AreaofRectangle {
 
 	int  length = 5;
 	int breadth = 3;
