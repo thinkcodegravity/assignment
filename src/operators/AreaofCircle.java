@@ -1,13 +1,13 @@
 package operators;
 
-public class AreaOfCircle {
+public class AreaofCircle {
 	   public static void main(String args[]){
-	      int radius;
+	      double radius = 2;
 	      double pi = 3.14;
 	      double area;
 	     
 	      
-	      area = (radius*radius)*pi;
-	      System.out.println("Area of the circle is :"+area);
+	      double area1 = radius * radius * pi;
+	      System.out.println("Area of the circle is :"+area1);
 	   }
 	}
