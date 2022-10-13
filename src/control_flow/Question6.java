@@ -14,7 +14,6 @@ public class Question6 {
 	
 	public void menuItems(int userChoice) {
 		
-		
 		switch(userChoice) {
 		case 1: 
 			System.out.println("The price of pizza is: $15");
