@@ -1,5 +1,5 @@
 /*
- * Project is created to perform the withdraw
+ * Project is created to perform the withdraw and Deposit using Bank ATM.
  */
 package method;
 
@@ -8,6 +8,13 @@ public class Bank {
 	int depositAmount=7000;
 	int withdrawAmount=600;
 	int depositLimit=6000;
+	int year=5;
+	double rate=5.5;
+	
+	public void simpleInterest( ) {
+		double interestAmount=(balance*year*rate)/100;
+		System.out.println("Your total interest of $"+ balance+" in "+year+" year "+" will be: $"+interestAmount);
+	}
 	
 	public void withdraw() {
 		if(withdrawAmount<balance) {
@@ -32,9 +39,13 @@ public class Bank {
 
 	public static void main(String[] args) {
 		System.out.println("Welcome to Bank of America ATM");
- Bank newBalance=new Bank();
- newBalance.withdraw();
- newBalance.deposit();
+		//Method calling for the operations
+ Bank amt=new Bank();
+ amt.withdraw();
+ amt.deposit();
+ Bank interest=new Bank();
+ interest.simpleInterest();
+ 
  }
 
 }
