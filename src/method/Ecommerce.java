@@ -21,7 +21,7 @@ public class Ecommerce {
 
 		Ecommerce in = new Ecommerce();
 		in.idRegistration("a", "b");
-		;
+		
 	}
 
 }
