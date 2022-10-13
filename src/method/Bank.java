@@ -3,7 +3,7 @@ package method;
 public class Bank {
 	int balance=5000;
 	int depositAmount=100;
-	int withdrawAmount=500;
+	int withdrawAmount=600;
 	
 	public void withdraw() {
 		 
