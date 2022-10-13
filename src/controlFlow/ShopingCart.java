@@ -2,12 +2,12 @@ package controlFlow;
 
 import java.util.Scanner;
 
-/*
- * write a shopping program that has-a balance, product price
-Create a checkout method that takes orderquantity as input.
- Calculate total cart price based on quantity input and product price. 
- If total cart prices is less than balance than return success else return failure
- */
+	/*
+	 * write a shopping program that has-a balance, product price
+	 Create a checkout method that takes orderquantity as input.
+	 Calculate total cart price based on quantity input and product price. 
+	 If total cart prices is less than balance than return success else return failure
+	 */
 public class ShopingCart {
 	
 	double balance = 1000.0;
