@@ -31,8 +31,10 @@ public class PrintMenu {
 
 			
 			
-			System.out.println(enter 1. for Pizza);
-		System.out.println(enter 2. for Pasta);
+//			System.out.println(enter 1. for Pizza);
+//		System.out.println(enter 2. for Pasta);
 		
 		}
+		}
+	}}
 
