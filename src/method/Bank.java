@@ -1,5 +1,6 @@
 /*
  * Project is created to perform the withdraw and Deposit using Bank ATM.
+ * Also Calculate the simple interest
  */
 package method;
 
