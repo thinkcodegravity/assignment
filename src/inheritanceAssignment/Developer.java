@@ -1,6 +1,7 @@
 package inheritanceAssignment;
 
 public class Developer extends Employee {
+	String jobTitle;
 
 	public Developer(String name, int age, double salary, String jobTitle) {
 		this.name = name;

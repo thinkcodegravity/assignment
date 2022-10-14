@@ -2,6 +2,8 @@ package inheritanceAssignment;
 
 public class Tester extends Employee {
 	
+	String jobTitle;
+	
 	public Tester(String name, int age, double salary, String jobTitle) {
 		this.name = name;
 		this.age = age;
