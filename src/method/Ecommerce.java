@@ -38,13 +38,34 @@ public class Ecommerce {
 		
 	}
 
+	String productName;
+	int productQuantity;
+	
+	//Creating method to add an items on a cart
+	public void addCart(int productQuantity, String productName) {
+		if(productQuantity > 0) {
+			
+			System.out.println(productQuantity+" "+productName+" added to your cart");
+		}
+		else {
+			System.out.println("Please select product and add to your cart.");
+		}
+		
+		
+	}
+	
+	
 	public static void main(String[] args) {
 		
 		// TODO Auto-generated method stub
-System.out.println("Welcome to Ecommerce Online Portal");
+		System.out.println("Welcome to Ecommerce Online Portal");
 		Ecommerce profile = new Ecommerce();
 		profile.idRegister("sk@gmail.com","SK",12345);
 		profile.login("SK", "abcd");
+		
+		
+		Ecommerce add=new Ecommerce();
+		add.addCart(1,"Cloth");
 		
 		
 	}
