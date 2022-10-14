@@ -65,7 +65,7 @@ public class Ecommerce {
 		
 		
 		Ecommerce add=new Ecommerce();
-		add.addCart(1,"Cloth");
+		add.addCart(1,"Cloth"); //calling method addCart with its value
 		
 		
 	}
