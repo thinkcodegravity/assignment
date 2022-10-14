@@ -1,12 +1,35 @@
+/*
+ * This program is designed to create method to register Ecommerce account
+ * also create a method to login on your profile
+ */
+
 package method;
 
 public class Ecommerce {
-	
-	 String userName;
+	//Declaring variables
+	String userName;
 	String userPassword;
+	long phoneNumber;
+	String emailAddress;
 	
-	public void idRegistration(String userName, String userPassword) {
-		if(userName=="a" & userPassword=="b") {
+	//Method creation to register user account
+	public void idRegister(String a, String b, long c) {
+		this.emailAddress=a;
+		this.userName=b;
+		this.phoneNumber= c;
+		//Display the output if the information are correct
+		if(emailAddress=="sk@gmail.com"& userName=="SK"& phoneNumber==12345) {
+			System.out.println("You have sucessfully registered your Ecommerce account.");	
+		}
+		//If the input user informations are not true.; It will not register.
+		else {
+			System.out.println("Sorry! Please Check your personal information to register.");
+		}
+	}
+	//Method to login into user profile
+	public void login(String userName, String userPassword) {
+
+		if(userName=="SK" & userPassword=="abcd") {
 			System.out.println("You Sucessfully logged in!");
 		}
 		else {
@@ -18,9 +41,11 @@ public class Ecommerce {
 	public static void main(String[] args) {
 		
 		// TODO Auto-generated method stub
-
-		Ecommerce in = new Ecommerce();
-		in.idRegistration("a", "b");
+System.out.println("Welcome to Ecommerce Online Portal");
+		Ecommerce profile = new Ecommerce();
+		profile.idRegister("sk@gmail.com","SK",12345);
+		profile.login("SK", "abcd");
+		
 		
 	}
 
