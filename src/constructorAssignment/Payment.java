@@ -8,13 +8,13 @@ package constructorAssignment;
 
  */
 public class Payment {
-	String creditCardNumber;
+	long creditCardNumber;
 	String creditCardExpiry;
 	int creditCardSecCode;
 	String paypalUsserid;
 	String paypalPassword;
 	
-	public Payment(String creditCardNumber, String creditCardExpiry, int creditCardSecCode) {
+	public Payment(long creditCardNumber, String creditCardExpiry, int creditCardSecCode) {
 		this.creditCardNumber=creditCardNumber;
 		this.creditCardExpiry=creditCardExpiry;
 		this.creditCardSecCode=creditCardSecCode;
@@ -27,7 +27,7 @@ public class Payment {
 	}
 
 	public static void main(String[] args) {
-		Payment p = new Payment("6543212345", "26/2026", 342);
+		Payment p = new Payment(6543212345l, "26/2026", 342);
 		Payment pp = new Payment("shivaraj321", "dynamic");
 
 	}
