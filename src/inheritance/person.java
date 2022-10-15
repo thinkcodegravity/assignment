@@ -19,10 +19,15 @@ public class person {
 	String name ="Chris";
 	int age = 29;
 	
-	public person() {
-		System.out.println("Person talks and walk");
+
+	public  void  talk() {
+		System.out.println("Person talks ");
+	}
+	public void walk() {
+		System.out.println("A person walks");
+		}
 	}
 	
 	
 
-}
+
