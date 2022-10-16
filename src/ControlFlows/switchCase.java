@@ -1,5 +1,7 @@
 package ControlFlows;
 
+import java.util.Scanner;
+
 public class switchCase {
 
 	
@@ -9,7 +11,10 @@ public class switchCase {
 	//defult is use the last statement
 	public static void main(String[] args) {
 	    
-		int itemChoice = 1;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the item selection Pizza for 1 and Pasta for 2 :- ");
+		int itemChoice = sc.nextInt();
+		
 		switch(itemChoice) {
 		case 1:
 		    System.out.println("Cost of the Small Cheese pizza is :- $7.99");
