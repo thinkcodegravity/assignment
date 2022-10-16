@@ -10,5 +10,8 @@ public class Developer extends Tester {
 		System.out.println("Developer works");
 		System.out.println("Title : " + T.jobTitle);
 		System.out.println("Salary: " + T.salary);
+	T.walk();
+	T.talk();
+	
 	}
 }
