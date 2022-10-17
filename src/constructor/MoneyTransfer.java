@@ -26,6 +26,7 @@ public class MoneyTransfer {
 		this(amt);
 		receiverAccountNumber = accnum;
 	}
+	
 	public MoneyTransfer (long num , double amt) {
 		
 		this(amt);
