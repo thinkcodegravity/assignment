@@ -18,9 +18,19 @@ public class Product {
 		
 	}
 	public Product (String n, double p) {
-		name=n;
+		this(n);
 		price=p;
 	}
+	
+	public static void main(String[]args) {
+		Product p1=new Product("coke");
+		System.out.println("Name :" + p1.name);
+		
+		Product p2=new Product("pepsi", 2.99);
+		
+		System.out.println("Name : " + p2.name + " and price: " + p2.price);
+		
+				
 	
 
 }
