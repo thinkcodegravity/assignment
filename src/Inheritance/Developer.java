@@ -52,5 +52,15 @@ public class Developer extends Employee {
 		developer.walk();
 		developer.work();
 	}
-
 }
+
+	/*	 
+	********************** OUTPUT ***********************
+	 	Name: Prabin Kunwar
+		Age: 27
+		Salary: 95000.0
+		Job Title: Java Developer
+		Developer is talking.
+		Developer is walking.
+		I am working as a Java Developer.		
+	 */

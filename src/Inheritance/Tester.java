@@ -53,5 +53,15 @@ public class Tester extends Employee {
 		tester.walk();
 		tester.work();
 	}
-
 }
+	
+	/*	 
+ 	********************** OUTPUT ***********************
+		Name: Peter
+		Age: 25
+		Salary: 70000.0
+		Job Title: Software Tester
+		Tester is talking.
+		Tester is walking.
+		I am working as a Software Testing Engineer.	
+ */
