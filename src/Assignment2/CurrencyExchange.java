@@ -4,7 +4,6 @@
 package Assignment2;
 import java.util.Scanner;
 public class CurrencyExchange {
-	int dollar;
 	double exchangeRupee;
 	
 	public void exchangeValue(int dollar) {
@@ -20,7 +19,7 @@ public class CurrencyExchange {
 		
 		System.out.print("Please enter your dollor amount: $");
 		int dollar=console.nextInt();
-		CurrencyExchange exchange=new CurrencyExchange();
+		CurrencyExchange exchange=new CurrencyExchange();//method calling statement
 		exchange.exchangeValue(dollar);
 		
 	
