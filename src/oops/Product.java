@@ -19,7 +19,7 @@ public float BuyProduct (float CostPrice, int ProductQuantity) {
 	// Method to negotiate 
 	public float Negotiate (float ProductPrice, float discount) {
 		discount=0.05f;
-		float FinalPrice=ProductPrice * discount;
+		float FinalPrice=ProductPrice-ProductPrice * discount;
 		return FinalPrice;
 	}
 		
