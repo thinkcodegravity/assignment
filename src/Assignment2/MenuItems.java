@@ -1,6 +1,6 @@
 /*
  * this program is designed to show the menu items according to the user choice of option
- * switch condition is used to perform the task and show the menu items
+ * switch condition is used to perform the task and show the menu items according to the user input.
  */
 package Assignment2;
 import java.util.Scanner;
@@ -26,6 +26,9 @@ public class MenuItems {
 		case 2:
 			System.out.println("Pasta");
 			break;
+			
+			default:
+				System.out.println("Salad");
 			
 		}
 			
