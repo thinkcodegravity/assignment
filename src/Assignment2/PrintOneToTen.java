@@ -4,8 +4,10 @@ public class PrintOneToTen {
 	
 	//Creating method print
 	public void  print() {
-		for(int i=1; i<=10;i++) {
-			System.out.print(" "+i+" ");
+		int count=1;
+		while(count<=10) {
+			System.out.print(" "+count+" ");
+			count++;
 		}
 		
 	}
