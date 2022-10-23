@@ -1,6 +1,6 @@
 package inheritance;
 
-public class CartCalculator extends Cart{
+public class CartCalculator {
 
 	public static void main (String [] args) {
 		Calculator cl = new Calculator();
