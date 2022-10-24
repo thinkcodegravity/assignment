@@ -9,7 +9,7 @@ public class Email implements INotification {
 
 	@Override
 	public boolean sendNotification(String message) {
-		System.out.println("This is the email notification message");
+		System.out.println("Email notification message");
 		return false;
 	}
 

@@ -9,7 +9,7 @@ public class PhoneClass implements INotification {
 
 	@Override
 	public boolean sendNotification(String message) {
-		System.out.println("This is the phone notification message");
+		System.out.println("Phone notification message");
 		return false;
 	}
 

@@ -10,7 +10,7 @@ public class TextClass implements INotification {
 
 	@Override
 	public boolean sendNotification(String message) {
-		System.out.println("This is the text notification message");
+		System.out.println("Text notification message");
 		return false;
 	}
 
