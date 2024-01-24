@@ -1,0 +1,30 @@
+Oops fundamentals:
+
+1) Product 
+	Has: id, name, price, quantity
+	Does: buy, sell, negotiate
+	public class product{
+	   private int id;
+	   private String name;
+	   private double price;
+	   private double quantity;
+	   public void buy(int id){}
+	   public void sell(int id){}
+	   public void negotiate(int id){}
+	}
+2) Car
+	Has:steering, break, doors, seatbelt,gear
+	Does:drive, stop, reverse
+	 
+3) Bank:
+	Has: accountname, accountno, location, balance
+	Does: checkAccount, Deposit, Withdraw
+4) Television:
+	Has: screen, speaker, on, off,channel
+	Does:turnOn, turnOff, increaseVloume,decreseVloume, changeChannel
+5) Fan:
+	Has: controlSwitch, blades, on, Off
+	Does: increaseSpeed, DecreaseSpeed, turnOn, turnOff
+6) Tree:
+	Has: Leaves,branch, roots,ageInYears
+	Does: yearAges
