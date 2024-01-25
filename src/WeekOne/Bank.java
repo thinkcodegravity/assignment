@@ -6,6 +6,7 @@ public class Bank {
 	String employee;
 	String customer;
 	float balance;
+	String lastName;
 	
 	public float deposite(float amt) {
 		return 0.0f;
