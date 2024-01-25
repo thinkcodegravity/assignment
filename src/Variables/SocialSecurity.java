@@ -1,6 +1,6 @@
 package Variables;
 
-public class SocialSecurityNumber {
+public class SocialSecurity {
 	//Declaring variables for SSN
 	long ssn=123458331;
 
