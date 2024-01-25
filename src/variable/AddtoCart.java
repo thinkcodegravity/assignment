@@ -1,7 +1,8 @@
 package variable;
 
 public class AddtoCart {
-	String cardName;
-	long cardNumber;
+	String itemName;
+	double price;
+	int quantity;
 
 }
