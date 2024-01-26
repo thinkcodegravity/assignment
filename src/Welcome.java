@@ -5,7 +5,6 @@ public class Welcome {
 
 		System.out.println("Assignments here");
 		System.out.println("I am BharathwajReddy");
-		System.out.println("testing");
 	}
 
 }
