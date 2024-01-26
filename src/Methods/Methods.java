@@ -1,4 +1,4 @@
-package assignment;
+package Methods;
 
 public class Methods {
 	
