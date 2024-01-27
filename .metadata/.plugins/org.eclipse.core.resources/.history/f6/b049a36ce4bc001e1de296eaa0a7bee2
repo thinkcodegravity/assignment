@@ -1,0 +1,21 @@
+package semi_noob_me_begineer;
+
+public class Ecommerce {
+	
+	boolean login(String username, String password) {
+        return true; 
+    }
+
+    void register(String username, String password) {
+    	System.out.println("Registration successful for user: " + username);
+    }
+
+    void addToCart(String product) {
+    	System.out.println("Added " + product + " to the cart");
+    }
+
+    void makePayment(double amount) {
+    	System.out.println("Payment successful. Amount: " + amount);
+    }
+
+}

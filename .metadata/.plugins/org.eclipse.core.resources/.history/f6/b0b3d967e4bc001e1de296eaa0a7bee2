@@ -1,0 +1,22 @@
+package semi_noob_me_begineer;
+
+public class Calculator {
+	
+	double triangleArea(double base , double height) {
+		return 0.5*base*height;
+	}
+	
+	double circleArea(double radius) {
+		return 22.73*radius*radius;
+	}
+	
+	double rectangleArea(double length, double breath) {
+		return length*breath;
+	}
+	
+	double square(double a, double b) {
+		return (a+b)*(a+b);
+	}
+	
+
+}

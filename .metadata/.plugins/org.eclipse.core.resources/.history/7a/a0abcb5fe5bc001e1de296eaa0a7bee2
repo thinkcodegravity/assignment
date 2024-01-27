@@ -1,0 +1,17 @@
+package oopFundamental;
+
+public class Mail {
+	
+    void sendEmail(String to, String subject, String body) {
+        System.out.println("Email sent to: " + to + "\nSubject: " + subject + "\nBody: " + body);
+    }
+
+    void deleteEmail(int emailId) {
+        System.out.println("Deleted email with ID: " + emailId);
+    }
+
+    void readEmail(int emailId) {
+        System.out.println("Read email with ID: " + emailId);
+    }
+
+}

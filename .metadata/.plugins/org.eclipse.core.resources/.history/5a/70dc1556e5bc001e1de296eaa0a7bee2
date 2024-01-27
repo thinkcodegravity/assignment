@@ -1,0 +1,18 @@
+package oopFundamental;
+
+public class Bank {
+	
+	    double calculateSimpleInterest(double principal, double rate, double time) {
+	    	return (principal * rate * time) / 100;
+	    }
+
+	    double withdraw(double amount , double balance) {
+	    	return balance - amount;
+	    }
+
+	    double deposit(double amount , double balance) {
+	    	return balance + amount;
+	    }
+	}
+
+
