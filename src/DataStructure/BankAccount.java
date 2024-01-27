@@ -13,7 +13,7 @@ public class BankAccount {
 		System.out.println("Customer Email:" + customerEmail);
 		System.out.println("Account Number:" + accountNumber);
 	}
-
+	//Creating a method to show initial bank balance of a customer
 	public void setInitialBalance(double initialBalance) {
 		balance = initialBalance;
 		System.out.println("Your initial balance is: " + initialBalance);
@@ -22,7 +22,7 @@ public class BankAccount {
 
 	// Creating a method for Deposit
 	public void accountDeposit(int amount) {
-		balance += amount;
+		balance=balance+ amount;
 		System.out.println("****************Deposit Transction******************");
 		System.out.println("Total Amount Deposited: $" + amount);
 
