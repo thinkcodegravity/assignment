@@ -5,7 +5,7 @@ public class PaypalPayment {
 	String AccountName = "Code Gravity LLC";
 	String email = "abcd@gmail.com";
 
-	// Creating a method PayPalaAyment having double as a return type and double as
+	// Creating a method PayPalPayment having double as a return type and double as
 	// a input.
 	public double PayPalPayment(double PaymentAmount) {
 
