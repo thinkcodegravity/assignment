@@ -27,7 +27,5 @@ public class OopsFundamentals {
 	*/
 	public static void main(String[] args) {
 		System.out.println(" I have commented Assignment Oops Fundamentals above");
-		
 	}
-
 }
