@@ -5,7 +5,7 @@ public class AccountRegistration {
 	String accountName = "Samrat Khatiwada";
 	int age = 28;
 	String Gender = "Male";
-	String email = "abcd@codegravity.com";
+	String email = "abcde@codegravity.com";
 	String Password = "qwert1234";
 	String phoneNumber = "124356789";
 
