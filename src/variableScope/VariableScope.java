@@ -5,6 +5,7 @@ import java.math.*;
 public class VariableScope {
 
 	public static void main(String[] args) {
+		int age;
 	}
 	
 	public static int sum(int a, int b, int c) {
