@@ -1,6 +1,6 @@
 package Variable;
 
-public class VariableAssignment {
+public class SocialSecurityNumber {
 
 	String socialSecurityNumber;
 	
