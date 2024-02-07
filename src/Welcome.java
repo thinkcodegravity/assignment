@@ -1,3 +1,5 @@
+package assignment.src;
+
 
 public class Welcome {
 
