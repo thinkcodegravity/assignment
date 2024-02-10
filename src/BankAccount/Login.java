@@ -18,6 +18,7 @@ public class Login {
 				System.out.println("Please press 1 for withdraw, 2 for deposit and 3 for balance inquiry");
 				int option = sc.nextInt();
 				if (option == 1) {
+					System.out.println("Available Account Balance: $"+ba.balance);
 					System.out.println("Please enter withdraw amount:");
 					double enteredAmount = sc.nextInt();
 					if (enteredAmount <= ba.balance) {
@@ -30,6 +31,7 @@ public class Login {
 
 					}
 				} else if (option == 2) {
+					System.out.println("Available Account Balance: $"+ba.balance);
 					System.out.println("Please enter your deposit amount:");
 					double enteredAmount = sc.nextInt();
 					if (enteredAmount <= 10000) {

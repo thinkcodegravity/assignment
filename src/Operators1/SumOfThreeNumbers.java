@@ -1,4 +1,4 @@
-package Operators;
+package Operators1;
 
 public class SumOfThreeNumbers {
 	// Creating a method AddNumbers to get sum of three numbers

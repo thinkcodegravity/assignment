@@ -1,4 +1,4 @@
-package Operators;
+package Operators1;
 
 public class AreaOfSquare {
 	// method to calculate area of square
