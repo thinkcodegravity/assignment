@@ -1,4 +1,4 @@
-package operators;
+package operators.bank;
 
 import java.util.Scanner;
 
