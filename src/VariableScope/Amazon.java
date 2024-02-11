@@ -4,11 +4,19 @@ package VariableScope;
  *  if password update was success or failure
  */
 public class Amazon {
+	String Password;
+	
 	public boolean ChangePassword(String userId, String newPassword) {
-		boolean isSuccess = true;
-		boolean isFailure=false;
-		boolean passwordUpdate = isSuccess;
-		return passwordUpdate;
+		
+	if(newPassword!=Password) {
+		System.out.println("Password update Successfully");
+		return true;
+	}
+	else {
+		System.out.println("Password update failed");
+		return false;
+	}
+		
 	}
 
 }
