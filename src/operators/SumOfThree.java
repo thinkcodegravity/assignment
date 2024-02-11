@@ -12,11 +12,12 @@ public class SumOfThree {
 
 	public static void main(String[] args) {
 		float a,b,c;
-		Scanner scan =new Scanner(System.in);
-		System.out.println("Enter three numbers to calcualte their sum");
-		a=scan.nextFloat();
-		b=scan.nextFloat();
-		c=scan.nextFloat();
+		try (Scanner scan = new Scanner(System.in)) {
+			System.out.println("Enter three numbers to calcualte their sum");
+			a=scan.nextFloat();
+			b=scan.nextFloat();
+			c=scan.nextFloat();
+		}
 		SumOfThree sum =new SumOfThree(a,b,c);
 		float value = sum.add(a,b,c);
 		System.out.println("The sum of "+a+" "+b+" and "+c+" is "+value);
