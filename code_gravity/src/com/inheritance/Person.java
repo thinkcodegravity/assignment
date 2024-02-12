@@ -1,7 +1,7 @@
 package com.inheritance;
 
 public class Person {
-	String name;
+	String name = "GrandParent";
     int age;
 
     void talk() {
@@ -11,5 +11,11 @@ public class Person {
     void walk() {
         System.out.println(name + " is walking.");
     }
+    
+//    public static void main(String[] args) {
+//		
+//    	Person person = new Person();
+//    	person.name = "GrandParent";
+//	}
 
 }

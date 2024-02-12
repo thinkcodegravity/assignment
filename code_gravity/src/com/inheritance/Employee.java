@@ -1,7 +1,8 @@
 package com.inheritance;
 
 public class Employee extends Person{
-	
+	String name = "Parent";
+	int age;
 	double salary;
 
   

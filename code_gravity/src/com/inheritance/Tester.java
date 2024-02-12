@@ -1,7 +1,9 @@
 package com.inheritance;
 
 public class Tester extends Employee{
-	
+	String name;
+	int age;
+	double salary;
 	String jobTitle;
 
 

@@ -2,6 +2,8 @@ package com.inheritance;
 
 public class Developer extends Employee{
 	
+	int age;
+	double salary;
 	String jobTitle;
 
     void talk() {
@@ -10,16 +12,17 @@ public class Developer extends Employee{
 
   
     void walk() {
-        System.out.println(name + " is walking as a developer.");
+        System.out.println(this.name + " is walking as a developer.");
     }
 
     void work() {
-        System.out.println(name + " is working as a developer.");
+        System.out.println(super.name + " is working as a developer.");
     }
     
     public static void main(String[] args) {
 		Developer developer = new Developer();
 		developer.name = "srijana";
+		
 		developer.talk();
 		developer.walk();
 		developer.work();
