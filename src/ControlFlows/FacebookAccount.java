@@ -23,9 +23,9 @@ public class FacebookAccount {
 
 	}
 
-	// Creating a method to retrieve user id by using phone number
+	// Creating a method to retrieve user id by using user id.
 	public String RetrievePassword(String userId) {
-		if (userId.equals(userId)) {
+		if (userId.equals(registeredUserId)) {
 			System.out.println("Your facebook Password is: " + registeredPassword);
 			return registeredPassword;
 		} else {
