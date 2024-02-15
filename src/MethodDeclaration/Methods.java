@@ -12,7 +12,6 @@ public class Methods {
 
     public double totalCartValue(Product pro ){
         return pro.getQuantity() * pro.getPrice();
-
     }
 
     public float areaOfRectangle(float width,float height){
