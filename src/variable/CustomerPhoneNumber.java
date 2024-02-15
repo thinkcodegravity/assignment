@@ -1,6 +1,6 @@
 package variable;
 
 public class CustomerPhoneNumber {
-	String phoneNumber = "0123456789";
+	String phoneNumber = "8376272892";
 
 }

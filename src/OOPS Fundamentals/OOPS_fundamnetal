@@ -1,0 +1,18 @@
+    1) Product
+		Has/instance variable : name, price, quantity
+		Does/methods : buy, sell, negotiate
+	2) Car
+		Has/instance variable  : name, price, model, engine
+		Does/methods  : buy, sell, drive, start, stop
+	3) Bank
+		Has/instance variable  : accountNumber, balance, routingNumber
+		Does/methods  : deposit, withdraw, checkBalance
+	4) Television 
+		Has/instance variable  : channels, screen, speakers
+		Does/methods  : on , off, increaseVolume, decreaseVolume, ChangeChannels
+	5) Fan
+		Has/instance variable  : Blades, switch, regulator
+		Does/methods  : on, off, increaseSpeed, decreaseSpeed
+	6) Tree
+		Has/instance variable  : leaves, roots, branches, fruits, flowers
+		Does/methods  : Shelter, wood, food

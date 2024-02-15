@@ -2,9 +2,7 @@ package variable;
 
 public class EmployeeSalary {
 	
-	double employeeSalary;{
-		employeeSalary = 10000.0;
-	}
+	long employeeSalary;
+		employeeSalary = 1500000;
 	
-
 }

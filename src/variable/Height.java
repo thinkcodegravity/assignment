@@ -1,7 +1,5 @@
 package variable;
 
 public class Height {
-	double height;
-
-
+	float height = 190.64f;
 }

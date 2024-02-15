@@ -1,5 +1,5 @@
 package variable;
 
 public class BankAccountNumber {
-	String bankAccountNumber;
+	long bankAccountNumber;
 }

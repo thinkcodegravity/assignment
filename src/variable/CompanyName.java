@@ -1,6 +1,6 @@
 package variable;
 
 public class CompanyName {
-	String companyName = "Amazon";
+	String companyName = "TATA";
 
 }
