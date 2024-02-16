@@ -1,10 +1,10 @@
 package method;
 
 public class BankDeposit {
-	int balance;
-	public void depositAmount(int depositAmount) {
-		
+	double balance;
+	public double depositAmount(int depositAmount) {
 		balance = balance + depositAmount;
+		return balance;
 		
 	}
 

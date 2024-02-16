@@ -3,11 +3,8 @@ package method;
 public class Product {
 	
 	
-	public void productInput(int quantity, int price) {
-		
-	}
-	public int total(int total) {
-		return total;
+	public double productInput(int quantity, int price) {
+		return quantity * price;
 	}
 
 }

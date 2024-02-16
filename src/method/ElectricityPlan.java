@@ -1,10 +1,9 @@
 package method;
 
 public class ElectricityPlan {
-	public String getElectrictyPlan(int zipCode) {
-		
-		zipCode = 1234;
-		return "";
+	public String getElectricityPlan(String zipCode) {	
+		zipCode = "1234-38111";
+		return "Plan Details";
 				
 	}
 

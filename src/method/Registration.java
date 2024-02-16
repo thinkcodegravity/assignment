@@ -2,16 +2,9 @@ package method;
 
 public class Registration {
 	
-	public void getInfo(String name, String doB, String phoneNumber) {
-		
+	public String getInfo(String name, String doB, String phoneNumber) {
+		return name;
 	}
 	
-	
-	public Addr getAddress(){
-		
-		Addr ad = new Addr();
-		return ad;
-		
-	}
 
 }

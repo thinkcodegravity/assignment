@@ -1,8 +1,11 @@
 package variable;
 
 public class EmployeeSalary {
-	
-	long employeeSalary;
-		employeeSalary = 1500000;
-	
+    
+    long employeeSalary;
+    
+    public EmployeeSalary() {
+        employeeSalary = 1500000;
+    }
 }
+
