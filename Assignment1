@@ -1,0 +1,23 @@
+OOP  Fundamentals
+Write java class for below example. 
+List following. FYI : 
+Has refers to variable/fields/data of a class, 
+Does refers to methods of the class.
+	1) Product
+		Has/instance variable : name, price, quantity
+		Does/methods : buy, sell, negotion
+  2) Car
+		Has/instance variable  : Model Name, steering, brakes,engine,tire,accelerator,
+		Does/methods  : stop, start,open,drive,move,turn,reverse
+	3) Bank
+		Has/instance variable  :account number, customer id, routing number, customer name, email id, phone number
+		Does/methods  : withdraw, deposit,transfer
+	4) Television 
+		Has/instance variable  :model, series,height, width,price,remote
+		Does/methods  : change channel, turn on, turn off,increase volume, decrease volume																											
+	5) Fan
+		Has/instance variable  : model type, color,input powr,voltage,size,current,speed
+		Does/methods  : fan on, fan off, count rotations
+	6) Tree
+		Has/instance variable  :branches, flower, fruits, stem, tree type,roots
+		Does/methods  :grow,increase height, decrease height,produce oxygen,having fruit
