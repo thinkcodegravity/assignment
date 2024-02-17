@@ -10,8 +10,8 @@ package Constructor.payment;
 public class Payment {
 	long creditCardNumber;
     String creditCardExpiry,paypalUserId,paypalPassword;
-	int creditSecCode;
-	public Payment(long creditCardNumber,String creditCardExpiry,int creditSecCode) {
+	short creditSecCode;
+	public Payment(long creditCardNumber,String creditCardExpiry,short creditSecCode) {
 		this.creditCardNumber=creditCardNumber;
 		this.creditCardExpiry =creditCardExpiry;
 		this.creditSecCode=creditSecCode;
