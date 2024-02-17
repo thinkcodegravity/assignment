@@ -9,7 +9,7 @@ package Constructor.payment;
 
 public class Payment {
 	long creditCardNumber;
-	String creditCardExpiry,paypalUserId,paypalPassword;
+    String creditCardExpiry,paypalUserId,paypalPassword;
 	int creditSecCode;
 	public Payment(long creditCardNumber,String creditCardExpiry,int creditSecCode) {
 		this.creditCardNumber=creditCardNumber;
