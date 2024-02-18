@@ -15,7 +15,7 @@ public class LoginProgram {
 	// Creating a method Login
 	public boolean Login(String loginUserid, String loginPassword) {
 		//
-		if(registerUserId == loginUserid && registerPassword == loginPassword) {
+		if(registerUserId.equals(loginUserid) && registerPassword.equals(loginPassword)) {
 			System.out.println("Login Successfully!");
 			return true;
 		} else {
