@@ -8,16 +8,18 @@ import java.util.Scanner;
 public class AdvancedCalculator extends Calculator {
 	
 	public int square(int l) {
-		//Calling parent class multiplication method to child class using super keyword.
-		int areaOfSquare=super.mul(l, l);
+		AdvancedCalculator ac=new AdvancedCalculator();	
+		//Calling parent class multiplication method to child class 
+		int areaOfSquare=mul(l, l);
 		System.out.println("Area of Square: "+areaOfSquare+" square unit.");
 		return areaOfSquare;
 		
 	}
 	public int rectangle(int l, int w) {
-		//Calling parent class multiplication method to child class using super keyword.
-		int areaOfRectangle=super.mul(l, w);
+		//Calling parent class multiplication method to child class
+		int areaOfRectangle=mul(l, w);
 		System.out.println("Area of Rectangle: "+areaOfRectangle+" square unit.");
+		
 		return areaOfRectangle;
 		
 	}
