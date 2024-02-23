@@ -1,4 +1,4 @@
-package variable;
+package Variable;
 
 public class AddtoCart {
 	String itemName;
