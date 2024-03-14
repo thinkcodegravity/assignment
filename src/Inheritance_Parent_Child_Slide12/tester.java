@@ -1,0 +1,8 @@
+package Inheritance_Parent_Child_Slide12;
+
+public class tester extends employee{
+public String jobTitle = "Engineer";
+public void jobTitle(String jobTitle) {
+	System.out.println("She is an "+ jobTitle);
+}
+}
