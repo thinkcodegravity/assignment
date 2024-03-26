@@ -1,7 +1,10 @@
 package variables;
 
 public class VariableAssign3 {
-	String lastName;	
-	lastName="Pappala";
+	String lastName;
+	{
+		lastName="Pappala";
+	}
+	
 	
 }
